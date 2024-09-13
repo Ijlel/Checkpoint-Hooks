@@ -1,0 +1,29 @@
+/* .contPlayers {
+  display: flex;
+  justify-content: space-between;
+} */
+ .movies-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+ }
+ .btn-add-movie {
+margin-top: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
+
+ }
+
+ .input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 5px;
+ }
+.input span {
+font-size: 14px;
+margin-right: 6px;
+font-weight: bold;
+}
